@@ -333,6 +333,17 @@ ol ol {
   display: none;
 }
 
+.ronpaul {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.ronpaulpic {
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+}
 
 ul ul {
   margin-top: 0;

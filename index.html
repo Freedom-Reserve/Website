@@ -170,10 +170,10 @@
       <br />
       <div class="components components-grid">
         <aside id="menu">
-  <h2>Go to:</h2>
+          <button class="btn btn-primary btn-block">Menu</button>
   <nav>
     <ul>
-      
+      <div class="btn-group">
       <a href="#goals"><button class="btn btn-default">Project Goals</button></a><br /><br />
       <a href="#problem"><button class="btn btn-default">The Problem</button></a><br /><br />
       <a href="#solution"><button class="btn btn-default">The Solution</button></a><br /><br />
@@ -184,7 +184,7 @@
       <a href="#whitepaper"><button class="btn btn-default">White Paper</button></a><br /><br />
       <a href="#gallery"><button class="btn btn-default">Gallery</button></a><br /><br />
       <a href="#help"><button class="btn btn-default">Pin with IPFS</button></a><br /><br />
-      
+      </div>
     </ul>
   </nav>
 
@@ -208,22 +208,40 @@
 
       <hr>
       <br />
-      <p id="goals"><cite>Project Goals</cite></p>
-<p><strong>To create sound deflationary money to replace the collapsing pound sterling issued by the corrupted British government. Creating a lifeline for the people of the British Isles in times of change and uncertainty, mismanagement and incompetence by the ruling class and tyranny and expropriation of wealth by the out of control State. Our goal is to replace the worthless central bank fiat money with a hard money with a fixed supply.</strong>
+      <div><button class="btn btn-error btn-ghost" id="goals">Project Goals</button><br /><br />
+<p><strong>To create sound deflationary money to replace the collapsing pound sterling issued by the corrupted British government. Creating a lifeline for the people of the British Isles in times of change and uncertainty, mismanagement and incompetence by the ruling class and tyranny and expropriation of wealth by the out of control State. Our goal is to replace the worthless central bank fiat money with a hard money with a fixed supply.</strong></p>
   <br />
-  <blockquote>
+  <br />
+  <div class="ronpaul"><button class="btn btn-primary btn-ghost" onclick="paulFunction()">Optional Ron Paul Quote</button></div>
+  <div id="ronpaul" class="hidden">
+    
+    <div class="ronpaulpic"><img src="./img/ronpaul.png" ></div>
+    <blockquote>
     <p>
-      <em>A family with the wrong members in control; that perhaps, is as near as one can come to describing England in a phrase.</em>
+      <em>What's happening is there's transfer of wealth from the poor and the middle class to the wealthy. This comes about because of the monetary system that we have. When you inflate a currency or destroy a currency, the middle class gets wiped out, so the people who get to use the money first, which is created by the Federal Reserve System, benefit, so the money gravitates to the banks and to Wall Street. That's why you have more billionaires than ever before.</em>
     </p>
     <footer>
-      <cite>George Orwell</cite>
+      <cite>Ron Paul</cite>
     </footer>
   </blockquote>
-  <br />
+  <br /></div>
+  <script>
+    function paulFunction() {
+      var x = document.getElementById("ronpaul");
+      
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+       if (x.style.display === "none");
+       x.style.display = "block";
+      }
+    }
+    </script>
+    </div>
   <hr>
   <br />
 
-  <p id="problem"><cite>The problem</cite></p>
+ <button class="btn btn-error btn-ghost" id="problem">The Problem</button><br /><br />
   <p>In this century, the Britons face, once again, the virulent reign of the State - of the State now armed with the fruits of man's creative powers, confiscated and perverted to its own aims. The last few centuries were times when men tried to place limits on the State, only to find that such limits, as with all other attempts, have failed. of all the numerous forms that governments have taken over the centuries, of all the concepts and institutions that have been tried, none has succeeded in keeping the State in check. The problem of the State is evidently as far from a solution as ever. Perhaps new paths of inquiry must be explored, if the final solution to the State is ever to be attained.</p>
   <p>As the State reaches the twilight of its life, we, as a people face intractable issues if we allow it to continue its policies. The State, when seeking to continue its existence beyond what is mathematically possible will use the only tool in its economic arsenal available to it. That tool, is the creation of ever larger quantities of its fiat currency.  The use of this tool by the State against the people, will bring misery and ruin to the people of the British Isles. It is this serious affair with which we are now faced.</p>
   <br />
@@ -265,7 +283,7 @@
     <br />
 <hr>
 <br />
-<p id="solution"><cite>The Solution: Separation of money and State</cite></p>
+<button class="btn btn-error btn-ghost" id="solution">The Solution: Separation of money and State</button><br /><br />
 
 <p>We all grow up going to school, where we learn about this thing that happened hundreds of years ago, which was the separation of church and state. We learn why that was so important, that humans used to live in societies under which their religion – something very personal and precious to them as individuals — was under the management of an organisation that could control those things. The State could tell you what to worship and how, when and why. Somehow, society realised perhaps that was unethical – that we shouldn’t permit control of something so personal and important to our lives to be controlled by the state.</p>
 
@@ -375,7 +393,7 @@ gLiFsP0ep0EiS7E4aM+Q8EMtGmz/xviEzal+BU8=
 <p>You can buy <strong>Freedom Reserve</strong> on <a href="https://info.uniswap.org"><button class="btn btn-error">UNISWAP</button></a></p>
 <body>
 
-<p>Join the community on <a href="https://t.me/joinchat/ILow_xDruVHeydtfNEMjBw"><button class="btn btn-primary btn-ghost">Telegram</button></a></p>
+<p>Join the community on <a href="https://t.me/joinchat/ILow_xDruVHeydtfNEMjBw"><button class="btn btn-primary btn-ghost">Telegram</button></a> and <a href="https://discord.gg/PFqnQM"><button class="btn btn-primary btn-ghost">Discord</button></a></p>
 <br />
 <button class="btn btn-primary btn-block" id="how-to-use">How to use</button>
 <br />
@@ -635,6 +653,7 @@ src="./img/Concept.png"
       /></a>
     </div>
     <br />
+    <div class="terminal-alert">These stickers are free to distribute through the <a href="#earn">bounty program</a></div>
     <hr />
     <br />
     <h2 id="help">Contribute</h2>
