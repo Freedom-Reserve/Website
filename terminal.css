@@ -128,8 +128,8 @@ h1::after {
   display: var(--display-h1-decoration);
 }
 
-h1 + *,
-.logo + * {
+h1+*,
+.logo+* {
   margin-top: 0;
 }
 
@@ -267,13 +267,13 @@ pre code {
 }
 
 li,
-li > ul > li {
+li>ul>li {
   position: relative;
   display: block;
   padding-left: calc(var(--global-space) * 2);
 }
 
-nav > ul > li {
+nav>ul>li {
   padding-left: 0;
 }
 
@@ -283,11 +283,11 @@ li::after {
   left: 0;
 }
 
-ul > li::after {
+ul>li::after {
   content: "-";
 }
 
-nav ul > li::after {
+nav ul>li::after {
   content: "";
 }
 
@@ -334,15 +334,18 @@ ol ol {
 }
 
 .ronpaul {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 .ronpaulpic {
-  margin: auto;
-  width: 25%;
-  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+
 }
 
 ul ul {
@@ -446,7 +449,7 @@ img {
 }
 
 .img2 {
-  
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -494,8 +497,8 @@ img {
   transform: translateX(50%);
 }
 
-.progress-bar-no-arrow > .progress-bar-filled::before,
-.progress-bar-no-arrow > .progress-bar-filled::after {
+.progress-bar-no-arrow>.progress-bar-filled::before,
+.progress-bar-no-arrow>.progress-bar-filled::after {
   content: "";
   display: none;
   visibility: hidden;
@@ -778,14 +781,14 @@ select:-webkit-autofill:focus {
   border: 1px solid var(--secondary-color);
 }
 
-.terminal-card > header {
+.terminal-card>header {
   color: var(--invert-font-color);
   text-align: center;
   background-color: var(--secondary-color);
   padding: 0.5em 0;
 }
 
-.terminal-card > div:first-of-type {
+.terminal-card>div:first-of-type {
   padding: var(--global-space);
 }
 
@@ -920,7 +923,7 @@ select:-webkit-autofill:focus {
   border: 1px solid var(--secondary-color);
 }
 
-figure > img {
+figure>img {
   padding: 0;
 }
 
@@ -937,7 +940,7 @@ figure {
   margin: 0;
 }
 
-figure > figcaption {
+figure>figcaption {
   color: var(--secondary-color);
   text-align: center;
 }
