@@ -335,10 +335,9 @@ ol ol {
 }
 
 .ronpaul {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+  
+
+  width: 60%;
 }
 
 .ronpaulpic {
@@ -717,6 +716,7 @@ select:-webkit-autofill:focus {
   border-color: var(--font-color);
   color: var(--font-color);
   background-color: transparent;
+  
 }
 
 .btn.btn-ghost:focus,
@@ -768,6 +768,9 @@ select:-webkit-autofill:focus {
   color: var(--invert-font-color);
   background-color: var(--error-color);
   border: 1px solid var(--error-color);
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 .btn-errorg {
   color: var(--invert-font-color);
@@ -787,7 +790,7 @@ select:-webkit-autofill:focus {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 60%;
 }
 
 
