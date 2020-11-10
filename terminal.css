@@ -435,6 +435,20 @@ p {
   color: var(--global-font-color);
 }
 
+div.a {
+  text-align: center;
+}
+div.b {
+  text-align: left;
+}
+
+p2 {
+  margin: 0 0 var(--global-line-height);
+  color: var(--global-font-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .container {
   max-width: var(--page-width);
 }
@@ -455,6 +469,13 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.img3 {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 .progress-bar {
@@ -507,11 +528,25 @@ img {
 }
 
 table {
-  width: 100%;
+  width: 70%;
   border-collapse: collapse;
   margin: var(--global-line-height) 0;
   color: var(--font-color);
   font-size: var(--global-font-size);
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+table .td1 {
+  vertical-align: top;
+  border: 1px solid var(--font-color);
+  line-height: var(--global-line-height);
+  padding: calc(var(--global-space) / 2);
+  font-size: 1em;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table td,
@@ -539,6 +574,13 @@ table caption {
 table tbody td:first-child {
   font-weight: 700;
   color: var(var(--secondary-color));
+}
+logo1 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+
 }
 
 .form {
@@ -689,9 +731,18 @@ select:-webkit-autofill:focus {
 }
 
 .btn-block {
-  width: 100%;
+  width: 70%;
   display: -ms-flexbox;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-blocka {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+
 }
 
 .btn-default {
@@ -733,7 +784,13 @@ select:-webkit-autofill:focus {
 .btn-error.btn-ghost {
   border-color: var(--error-color);
   color: var(--error-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
+
+
 
 .btn-error.btn-ghost:focus,
 .btn-error.btn-ghost:hover {
@@ -836,6 +893,10 @@ select:-webkit-autofill:focus {
   padding: 1em;
   border: 1px solid var(--font-color);
   margin-bottom: var(--global-space);
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
 }
 
 .terminal-alert-error {

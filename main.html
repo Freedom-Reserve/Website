@@ -87,17 +87,17 @@
       --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
         DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
         serif;
-      --background-color: #222225;
+        --background-color: #000000;
       --page-width: 60em;
       --font-color: #e8e9ed;
-      --invert-font-color: #222225;
+      --invert-font-color: #000000;
       --secondary-color: #a3abba;
       --tertiary-color: #a3abba;
-      --primary-color: #62c4ff;
-      --error-color: #ff3c74;
+      --primary-color: #05c705;
+      --error-color: #cc0505;
       --progress-bar-background: #3f3f44;
       --progress-bar-fill: #62c4ff;
-      --code-bg-color: #3f3f44;
+      --code-bg-color: #434344;
       --input-style: solid;
       --display-h1-decoration: none;
     }
@@ -110,66 +110,126 @@
       <header class="terminal-logo">
         <br />
       </header>
-
+      <nav class="terminal-menu">
+        <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+          <li><a href="#goals" class="menu-item"><span>Goals</span></a><meta property="position"></li>
+          <li><a href="#problem" class="menu-item"><span>Problem</span></a><meta property="position"></li>
+          <li><a href="#solution" class="menu-item"><span>Solution</span></a><meta property="position"></li>
+          <li><a href="#earn" class="menu-item"><span>Earn</span></a><meta property="position"></li>
+          <li><a href="#spend" class="menu-item"><span>Spend</span></a><meta property="position"></li>
+          <li><a href="#stats" class="menu-item"><span>Stats</span></a><meta property="position"></li>
+          <li><a href="#links" class="menu-item"><span>Links</span></a><meta property="position"></li>
+          <li><a href="#Timeline" class="menu-item"><span>Timeline</span></a><meta property="position"></li>
+          <li><a href="#whitepaper" class="menu-item"><span>Whitepaper</span></a><meta property="position"></li>
+          <li><a href="#gallery" class="menu-item"><span>Gallery</span></a><meta property="position"></li>
+          
+        </ul>
+      </nav>
     </div>
   </div>
 
   <div class="container">
     <br />
-    <div class="components components-grid">
-      <aside id="menu">
-        <button class="btn btn-primary btn-block">Menu</button>
-        <nav>
-          <ul>
-            <div class="btn-group">
-              <a href="#goals"><button class="btn btn-default">Project Goals</button></a><br /><br />
-              <a href="#problem"><button class="btn btn-default">The Problem</button></a><br /><br />
-              <a href="#solution"><button class="btn btn-default">The Solution</button></a><br /><br />
-              <a href="#earn"><button class="btn btn-default">Earn</button></a><br /><br />
-              <a href="#spend"><button class="btn btn-default">Spend</button></a><br /><br />
-              <a href="#stats"><button class="btn btn-default">Coin Info</button></a><br /><br />
-              <a href="#links"><button class="btn btn-default">Coin Links</button></a><br /><br />
-              <a href="#Timeline"><button class="btn btn-default">Timeline</button><br /><br />
-                <a href="#whitepaper"><button class="btn btn-default">White Paper</button></a><br /><br />
-                <a href="#gallery"><button class="btn btn-default">Gallery</button></a><br /><br />
-                <a href="#help"><button class="btn btn-default">Pin With IPFS</button></a><br /><br />
-            </div>
-          </ul>
-        </nav>
-        <iframe src="https://discordapp.com/widget?id=767398352799137822&theme=dark" width="200" height="300"
-          allowtransparency="true" frameborder="0"
-          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-      </aside>
-      <main>
-        <section>
-          <div class="image-grid">
-            <a href="" style="border: none;"><img src="./img/Freedomreserveheader.png" width="auto"
-                alt="random image" /></a>
-          </div>
-        </section>
-      </main>
+    <figure>
+      <img src="./img/freedomsplash.gif" alt="UK money supply" title="UK M3 Money Supply in £Millions" />
+      
+    </figure>
+    <hr>
+    <br />
+    <div id="goals"class="a"><button class="btn btn-error btn-ghost" >Project Goals</button><br /><br />
+        
+        <p><strong>Issue sound deflationary money to replace debased fiat currency</strong></p> 
+        <p><strong>Create a safe haven for people to protect their wealth from inflation</strong></p>
+        <p><strong>Give ordinary people the ability to avoid expropriation by the State</strong></p>
+        <p><strong>Generate a new economy free from government taxation and interference</strong></p>
+      </div>
+      <br />
+
+<hr>
+
+<br />
+<br />
+<button class="btn btn-primary btn-block" id="stats">Currency Information</button>
+    <br />
+    <br />
+<div class="img3">
+    <figure>
+      <img src="./img/freedomcoin400x400.png" alt="Freedom Reserve concept" title="Freedom Reserve Concept">
+    </figure>
+    </div>
+    <br />
+    <div>
+    <table>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <td>Freedom Reserve</td>
+        </tr>
+        <tr>
+          <th>Ticker Symbol</th>
+          <td>FR</td>
+        </tr>
+        <tr>
+          <th>Total Supply</th>
+          <td>80,000,000</td>
+        </tr>
+        <tr>
+          <th>Decimal Division</th>
+          <td>18</td>
+        </tr>
+        <tr>
+          <th>Token ID</th>
+          <td><a href="https://etherscan.io/token/0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532" target="_blank">Etherscan</a></td>
+        </tr>
+        <tr>
+          <th>Development Fund</th>
+          <td>20%</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <br />
+
+     
+      
     </div>
     <hr>
     <br />
-    <div><button class="btn btn-error btn-ghost" id="goals">Project Goals</button><br /><br />
-      <p><strong>To create sound deflationary money to replace the collapsing pound sterling issued by the corrupted
-          British government. Creating a lifeline for the people of the British Isles in times of change and
-          uncertainty, mismanagement and incompetence by the ruling class and tyranny and expropriation of wealth by the
-          out of control State. Our goal is to replace the worthless central bank fiat money with a hard money with a
-          fixed supply.</strong></p>
-      <br />
-      <br />
-      <div class="ronpaul"><button class="btn btn-primary btn-ghost" onclick="paulFunction()">Optional Ron Paul
-          Quote</button></div>
+    <button class="btn btn-error btn-ghost" id="problem">The Problem</button><br /><br />
+    <div class="a">
+    <p>In this century, we face, once again, the virulent reign of the State - of the State now armed with the
+      fruits of man's creative powers, confiscated and perverted to its own aims. The last few centuries were times when
+      men tried to place limits on the State, only to find that such limits, as with all other attempts, have failed. Of
+      all the numerous forms that governments have taken over the centuries, of all the concepts and institutions that
+      have been tried, none has succeeded in keeping the State in check. The problem of the State is evidently as far
+      from a solution as ever. Perhaps new paths of inquiry must be explored, if the final solution to the State is ever
+      to be attained.</p>
+      <div class="img2">
+        <br />
+        <figure>
+          <img src="./img/money supply.png" alt="UK money supply" title="UK M3 Money Supply in £Millions" />
+          <figcaption>UK M3 Money Supply in £Millions</figcaption>
+        </figure>
+        <br />
+      </div>
+    <p>As the State reaches the twilight of its life, we face intractable issues if we allow it to continue
+      its monetary policies. The State, when seeking to continue its existence beyond what is mathematically possible
+      will use the only tool in its arsenal available to it. That tool, is the creation of ever larger
+      quantities of fiat currency. The use of currency debasement by the State, will bring misery and ruin
+      to the people. It is this serious affair with which we are now faced.</p>
+      </div>
+<br />
+      <div class="ronpaul"><button class="btn btn-primary btn-ghost" onclick="paulFunction()">Click for Ron Paul</button></div>
       <div id="ronpaul" class="hidden">
-        <div class="ronpaulpic"><img src="./img/ronpaul.png"></div>
+        <br />
+        <div class="ronpaulpic"><br /><img src="./img/ronpaul.png"></div>
         <blockquote>
           <p>
             <em>What's happening is there's transfer of wealth from the poor and the middle class to the wealthy. This
               comes about because of the monetary system that we have. When you inflate a currency or destroy a
-              currency, the middle class gets wiped out, so the people who get to use the money first, which is created
-              by the Federal Reserve System, benefit, so the money gravitates to the banks and to Wall Street. That's
-              why you have more billionaires than ever before.</em>
+              currency, the middle class gets wiped out, the people who get to use the money first, which is created
+              by the Central Bank System, benefit, the money gravitates to the banks and to Wall Street. That's
+              why we have more billionaires than ever before.</em>
           </p>
           <footer>
             <cite>Ron Paul</cite>
@@ -188,37 +248,15 @@
           }
         }
       </script>
-    </div>
-    <hr>
     <br />
-    <button class="btn btn-error btn-ghost" id="problem">The Problem</button><br /><br />
-    <p>In this century, the Britons face, once again, the virulent reign of the State - of the State now armed with the
-      fruits of man's creative powers, confiscated and perverted to its own aims. The last few centuries were times when
-      men tried to place limits on the State, only to find that such limits, as with all other attempts, have failed. Of
-      all the numerous forms that governments have taken over the centuries, of all the concepts and institutions that
-      have been tried, none has succeeded in keeping the State in check. The problem of the State is evidently as far
-      from a solution as ever. Perhaps new paths of inquiry must be explored, if the final solution to the State is ever
-      to be attained.</p>
-    <p>As the State reaches the twilight of its life, we, as a people face intractable issues if we allow it to continue
-      its monetary policies. The State, when seeking to continue its existence beyond what is mathematically possible
-      will use the only tool in its economic arsenal available to it. That tool, is the creation of ever larger
-      quantities of its fiat currency. The use of this tool by the State against the people, will bring misery and ruin
-      to the people of the British Isles. It is this serious affair with which we are now faced.</p>
+    
+    
     <br />
-    <hr>
-    <div class="img2">
-      <br />
-      <figure>
-        <img src="./img/money supply.png" alt="UK money supply" title="UK M3 Money Supply in £Millions" />
-        <figcaption>UK M3 Money Supply in £Millions</figcaption>
-      </figure>
-    </div>
-    <br />
-    <p><cite>Inflation; the silent mugger</cite></p>
+    <div class="a"><p><cite>Inflation; the silent mugger</cite></p></div>
     <div class="terminal-alert">The State seeks to prolong the existence of the present monetary regime by robbing its
-      own citizens using fiat currency inflation.</div>
+      own citizens using fiat currency inflation.
     <br />
-    <blockquote>
+    <div class="b"><blockquote>
       <p>
         <em>The way to crush the people is to grind them between the millstones of taxation and inflation.</em>
       </p>
@@ -234,37 +272,96 @@
       <footer>
         <cite>- Margaret Thatcher - Autocrat</cite>
       </footer>
-    </blockquote>
+    </blockquote></div></div>
     <br />
     <hr>
     <br />
-    <button class="btn btn-error btn-ghost" id="solution">The Solution: Separation of Money and
-      State</button><br /><br />
-    <p>We all grow up going to school, where we learn about this thing that happened hundreds of years ago, which was
+    <button class="btn btn-error btn-ghost" id="solution">The Solution</button><br /><br />
+    <div class="a"><p>We all grow up learning about this thing that happened hundreds of years ago, which was
       the separation of church and state. We learn why that was so important, that humans used to live in societies
-      under which their religion – something very personal and precious to them as individuals — was under the
-      management of an organisation that could control those things. The State could tell you what to worship and how,
-      when and why. Somehow, society realised perhaps that was unethical – that we shouldn’t permit control of something
+      in which their religion – something very personal and precious to them as individuals — was under the
+      management of the State. The State could tell you what to worship and how, when and why. Somehow, people realised that we shouldn’t permit control of something
       so personal and important to our lives to be controlled by the State.</p>
     <p>It is that narrative of human development under which we now have other fights to fight, and in the realm of
-      economics it is mainly the separation of money and State. Money is absolutely as fundamental to our lives as
+      economics it is mainly the separation of money and State.</p> 
+      
+      <p>Money is absolutely as fundamental to our lives as
       religion, and for many people it is far more fundamental to their lives than religion. It affects how your life
       unfolds. The choices that you make about money dictate the path of your life and those around you. To have an
       institution like money controlled by a central entity — by a monopoly called the State — is absurd. It is immoral.
-      <strong>We should get rid of it.</strong></p>
-    <div class="terminal-alert">We propose a new money for the people of the British Isles (England, Scotland, Wales,
-      Ireland) Separated completely from the State. A money with a fixed supply. A zero rate of inflation, distributed
-      fairly to the people who need it most; The young common worker of the British Isles.</div>
-    <br>
+      <strong>We should get rid of it.</strong></p></div>
+      <br />
+    <div class="terminal-alert"><p>We propose a new money separated completely from the State. A money with a fixed supply. A zero rate of inflation, distributed
+      fairly to those who need it most; The young people of the world.</p>
+    <br />
     <p><strong>FREEDOM RESERVE is declared as money in the year 2020 with the intention of giving the people an
         alternative to corrupt banker controlled money and to allow them to preserve and multiply their wealth for
         future generations.</strong></p>
     <br />
-    <p><strong>FREEDOM RESERVE</strong></p>
+    <div class="img2">
+      <br />
+      <figure>
+        <img src="./img/3dgold1.png" alt="Freedom Reserve">
+        
+      </figure>
+    </div>
+    <p><strong>FREEDOM RESERVE</strong></p></div>
     <br />
     <hr>
     <br />
-    <button class="btn btn-primary btn-block" id="earn">How to Earn</button>
+    <section>
+      <button class="btn btn-error btn-ghost" id="Timeline">Timeline of events</button><br /><br />
+      <br />
+
+      <div class="terminal-timeline">
+        <div class="terminal-card">
+          <header>November 5 2020</header>
+          <div>
+            Launch of Freedom Reserve.
+          </div>
+        </div>
+        <div class="terminal-card">
+          <header>2021</header>
+          <div>
+            Discovery and research phase. During this time we will be running various marketing experiments
+            finding out what is most effective.
+          </div>
+        </div>
+        <div class="terminal-card">
+          <header>2022</header>
+          <div>
+            Expansion phase. This phase will see strong and consistent growth. If the market cap is sufficient
+            to guarantee security Freedom Reserve could migrate to its own blockchain during this time.
+          </div>
+        </div>
+        <div class="terminal-card">
+          <header>2023</header>
+          <div>
+            Consolidation phase. By this point Freedom Reserve will be in the early stages of mass adoption
+            within the British Isles and also globally.
+          </div>
+        </div>
+      </div>
+      <br />
+    </section>
+    <hr>
+<br />
+    <button class="btn btn-primary btn-blocka" id="how-to-use">Information</button>
+    <br />
+    <p>To interact with the ERC20 token ecosystem on Ethereum use <code>Metamask</code>.</p>
+    <pre><code><a href="https://metamask.io/" target="_blank">metamask.io</a></code></pre>
+<p>Add custom token to metamask with the following contract address:</p>
+<pre><code>0xC626e0619aC79AFEa9281c8eB9b1a9f9D3Fab532</code></pre>
+
+    <p>Freedom Reserve Foundation address is @</p>
+    <pre><code><a href="https://etherscan.io/address/0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3" target="_blank">0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3</a></code></pre>
+    <p>Freedom Reserve Bounty fund address:</p>
+<pre><code><a href="https://etherscan.io/address/0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2" target="_blank">0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2</a></code></pre>
+    <br />
+    <hr>
+
+    <br />
+    <button class="btn btn-primary btn-blocka" id="earn">How to Earn</button>
     <br />
     <p>Most of the development fund is earmarked for bounties and marketing efforts. <strong>WE PAY YOU TO HELP SPREAD
         THE WORD</strong>:</p>
@@ -298,123 +395,45 @@ mQENBF+MlbEBCADEKCjyF/FMFgpktVI3ijcWR5BGnLUfx/bQx7KvL0HXSoxAFCupxPmvPKwDylbnLxPR
     <br />
     <hr>
     <br />
-    <button class="btn btn-primary btn-block" id="spend">Where to spend</button>
+    <button class="btn btn-primary btn-blocka" id="spend">Where to spend</button>
     <br />
-    <p>Freedom Reserve is open to anybody to use as currency.</p>
-    <p>You can find many interesting potential purchases at the Green Man Market <a href="https://shop.freedomreserv.eth.link" target="_blank"><button
-      class="btn btn-errorg">Green Man Market</button></a></p>
-      <br>
-      <p>Purchase EquityPlus crypto trading bot subscription with FR<a href="http://www.equityplus.biz/equityplus/index.php/2020/11/03/equityplus-accepts-frc-token/" target="_blank"><button
-        class="btn btn-primary btn-ghost">Equityplus</button></a></p>
-        <br />
-        <p>If you accept FR for your goods and services just contact admin to place a listing in this section :)</p>
+    <p><strong>Freedom Reserve is open to anybody to use as currency</strong></p>
+    <p>If you accept FR for your goods and services just contact admin to place a listing in this section :)</p>
 <br />
+    <a href="https://shop.freedomreserv.eth.link/" target="_blank"><button
+      class="btn btn-primary btn-ghost">Green Man Market</button></a>
+    <p>You can find many interesting potential purchases at the Green Man Market</p>
+      <br>
+      <a href="https://www.equityplus.biz/equityplus/index.php/2020/11/03/equityplus-accepts-frc-token/" target="_blank"><button
+        class="btn btn-primary btn-ghost">Equityplus</button></a>
+      <p>Purchase EquityPlus crypto trading bot subscriptions with FR</p>
+        <br />
+        
+
 <hr>
 <br />
-    <button class="btn btn-primary btn-block" id="stats">Currency Information</button>
+   
+    <button class="btn btn-primary btn-blocka" id="links">Links</button>
     <br />
-    <table>
-      <tbody>
-        <tr>
-          <th>Name</th>
-          <td>Freedom Reserve</td>
-        </tr>
-        <tr>
-          <th>Ticker Symbol</th>
-          <td>FR</td>
-        </tr>
-        <tr>
-          <th>Total Supply</th>
-          <td>80,000,000</td>
-        </tr>
-        <tr>
-          <th>Decimal Division</th>
-          <td>18</td>
-        </tr>
-        <tr>
-          <th>Token ID</th>
-          <td><a href="https://etherscan.io/token/0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532" target="_blank">Etherscan</a></td>
-        </tr>
-        <tr>
-          <th>Development Fund</th>
-          <td>20%</td>
-        </tr>
-      </tbody>
-    </table>
+    <p><strong>Exchanges:</strong></p>
+      <a href="https://info.uniswap.org/pair/0x62008a04401662689467f5ee5d57c4863adabfc0" target="_blank"><button
+          class="btn btn-error">UNISWAP</button></a>
+          <br />
+          <br />
+    <p><strong>Community:</strong></p>
+      <a href="https://t.me/FREEDOMRESERVE1" target="_blank"><button
+          class="btn btn-primary btn-ghost">TELEGRAM</button></a>
+          <a href="https://discord.gg/Q9UPTTQ" target="_blank"><button
+          class="btn btn-primary btn-ghost">DISCORD</button></a>
+          <a href="https://instagram.com/freedomreserve1fr?igshid=71yij6h92xej" target="_blank"><button
+          class="btn btn-primary btn-ghost">INSTAGRAM</button></a>
+          <a href="https://minds.com/freedomreserve" target="_blank"><button
+         class="btn btn-primary btn-ghost">MINDS</button></a>
     <br />
-    <button class="btn btn-primary btn-block" id="links">Links</button>
-    <br />
-    <p>You can buy <strong>Freedom Reserve</strong> on <a href="https://info.uniswap.org" target="_blank"><button
-          class="btn btn-error">UNISWAP</button></a></p>
-    <p>Join the community on <a href="https://t.me/FREEDOMRESERVE1" target="_blank"><button
-          class="btn btn-primary btn-ghost">TELEGRAM</button></a> and <a href="https://discord.gg/Q9UPTTQ" target="_blank"><button
-          class="btn btn-primary btn-ghost">DISCORD</button></a></p>
-    <br />
-    <button class="btn btn-primary btn-block" id="how-to-use">How to use</button>
-    <br />
-    <p>To interact with the ERC20 token ecosystem on Ethereum use <code>Metamask</code>.</p>
-    <pre><code><a href="https://metamask.io/" target="_blank">metamask.io</a></code></pre>
-    <p>This project root is on the Ethereum blockchain @</p>
-    <pre><code><a href="https://etherscan.io/address/0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3" target="_blank">0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3</a></code></pre>
-    <br />
-    <hr>
-    <br />
-    <div>
-
-      <iframe 
-  src="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532"
-  height="660px"
-  width="100%"
-  style="
     
-    border: 0;
-    margin: 0 auto;
-    display: block;
-    border-radius: 10px;
-    max-width: 600px;
-    min-width: 300px;
-  "
-      ></iframe>
-      
-    </div>
+    
     <br />
-    <hr>
-    <br />
-    <section>
-      <button class="btn btn-primary btn-block" id="Timeline">Timeline</button>
-      <br />
-      <br />
-      <div class="terminal-timeline">
-        <div class="terminal-card">
-          <header>November 5 2020</header>
-          <div>
-            Launch of Freedom Reserve.
-          </div>
-        </div>
-        <div class="terminal-card">
-          <header>2021</header>
-          <div>
-            Discovery and research phase. During this time we will be running various marketing experiments
-            finding out what is most effective.
-          </div>
-        </div>
-        <div class="terminal-card">
-          <header>2022</header>
-          <div>
-            Expansion phase. This phase will see strong and consistent growth. If the market cap is sufficient
-            to guarantee security Freedom Reserve could migrate to its own blockchain during this time.
-          </div>
-        </div>
-        <div class="terminal-card">
-          <header>2023</header>
-          <div>
-            Consolidation phase. By this point Freedom Reserve will be in the early stages of mass adoption
-            within the British Isles and also globally.
-          </div>
-        </div>
-      </div>
-      <br />
-    </section>
+    
     <hr>
     <br />
     <div class="terminal-card">
@@ -453,8 +472,10 @@ mQENBF+MlbEBCADEKCjyF/FMFgpktVI3ijcWR5BGnLUfx/bQx7KvL0HXSoxAFCupxPmvPKwDylbnLxPR
           <main>
             <section>
               <div class="image-grid">
-                <img class="img2" src="./img/Concept.png" alt="Freedom Reserve concept"
-                  title="Freedom Reserve Concept" />
+                
+                  <img class=img2 src="./img/declaration.png" alt="Declaration" title="Declaration" />
+                
+                
               </div>
               <br />
               <h2 id="abstract">I. ABSTRACT</h2>
@@ -501,13 +522,13 @@ mQENBF+MlbEBCADEKCjyF/FMFgpktVI3ijcWR5BGnLUfx/bQx7KvL0HXSoxAFCupxPmvPKwDylbnLxPR
               <div class="img2">
                 <br />
                 <figure>
-                  <img src="./img/declaration.png" alt="Declaration" title="Declaration" />
+                  <img src="./img/Concept.png" alt="FR" title="Concept" />
                 </figure>
               </div>
               <br />
               <p>The total supply of <strong>FREEDOM RESERVE</strong> is fixed at 80,000,000 coins. 80% of the
                 <strong>FREEDOM RESERVE</strong> supply has been listed on decentralised exchanges with a nominal price
-                of 0.000000036ETH/1FRC and an initial market capitalisation of ~£1,000. This was done with the intention
+                of 0.000000036ETH/1FR and an initial market capitalisation of ~£1,000. This was done with the intention
                 of allowing early adopters to establish inexpensive exposure to <strong>FREEDOM RESERVE</strong> if they
                 believe it will have a larger market in the future.</p>
               <p><strong>FREEDOM RESERVE</strong> has a predetermined finite supply and no more additional
@@ -565,6 +586,10 @@ mQENBF+MlbEBCADEKCjyF/FMFgpktVI3ijcWR5BGnLUfx/bQx7KvL0HXSoxAFCupxPmvPKwDylbnLxPR
           alt="random image" /></a>
       <a href="./img/vsticker.png" style="border: none;"><img src="./img/vsticker.png" width="auto"
           alt="random image" /></a>
+      <a href="./img/freedomreserve greensticker.png" style="border: none;"><img src="./img/freedomreserve greensticker.png" width="auto"
+          alt="random image" /></a>
+      <a href="./img/freedomreserve redsticker.png" style="border: none;"><img src="./img/freedomreserve redsticker.png" width="auto"
+            alt="random image" /></a>
     </div>
     <br />
     <div class="terminal-alert">These stickers are free to distribute through the <a href="#earn">bounty program</a>
