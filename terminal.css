@@ -929,7 +929,7 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 15em) {
   .terminal-nav {
     flex-direction: row;
     align-items: center;
@@ -937,9 +937,10 @@ select:-webkit-autofill:focus {
 
   .terminal-menu ul {
     flex-direction: row;
+    flex-wrap: wrap;
     justify-items: flex-end;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: calc(var(--global-space) * 2);
   }
 
