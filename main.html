@@ -87,7 +87,7 @@
       --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
         DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
         serif;
-        --background-color: #000000;
+      --background-color: #1c1c20;
       --page-width: 60em;
       --font-color: #e8e9ed;
       --invert-font-color: #000000;
@@ -112,378 +112,228 @@
       </header>
       <nav class="terminal-menu">
         <ul vocab="https://schema.org/" typeof="BreadcrumbList">
-          <li><a href="#goals" class="menu-item"><span>Goals</span></a><meta property="position"></li>
-          <li><a href="#problem" class="menu-item"><span>Problem</span></a><meta property="position"></li>
-          <li><a href="#solution" class="menu-item"><span>Solution</span></a><meta property="position"></li>
-          <li><a href="#earn" class="menu-item"><span>Earn</span></a><meta property="position"></li>
-          <li><a href="#spend" class="menu-item"><span>Spend</span></a><meta property="position"></li>
-          <li><a href="#stats" class="menu-item"><span>Stats</span></a><meta property="position"></li>
-          <li><a href="#links" class="menu-item"><span>Links</span></a><meta property="position"></li>
-          <li><a href="#Timeline" class="menu-item"><span>Timeline</span></a><meta property="position"></li>
-          <li><a href="#whitepaper" class="menu-item"><span>Whitepaper</span></a><meta property="position"></li>
-          <li><a href="#gallery" class="menu-item"><span>Gallery</span></a><meta property="position"></li>
-          
+          <li><a href="main.html" class="menu-item"><span>Home</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#stats" class="menu-item"><span>Stats</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#how-to-use" class="menu-item"><span>How to</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#spend" class="menu-item"><span>Spend</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#links" class="menu-item"><span>Links</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#contribute" class="menu-item"><span>Contribute</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="about.html" class="menu-item"><span>About</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="whitepaper.html" class="menu-item"><span>Whitepaper</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="bounty.html" class="menu-item"><span>Bounty</span></a>
+            <meta property="position">
+          </li>
+
         </ul>
       </nav>
     </div>
   </div>
 
   <div class="container">
+
     <br />
     <figure>
-      <img src="./img/freedomsplash.gif" alt="UK money supply" title="UK M3 Money Supply in £Millions" />
-      
+      <img id="problem" src="./img/freedomsplash.gif" alt="Freedom Reserve .gif" title="Freedom Reserve banner" />
+
     </figure>
     <hr>
-    <br />
-    <div id="goals"class="a"><button class="btn btn-error btn-ghost" >Project Goals</button><br /><br />
-        
-        <p><strong>Issue sound deflationary money to replace debased fiat currency</strong></p> 
-        <p><strong>Create a safe haven for people to protect their wealth from inflation</strong></p>
-        <p><strong>Give ordinary people the ability to avoid expropriation by the State</strong></p>
-        <p><strong>Generate a new economy free from government taxation and interference</strong></p>
-        <p><a style="height: 38px;" class="github-button" href="https://github.com/Freedom-Reserve" data-size="large" data-show-count="true" aria-label="Star Freedom-Reserve on github">Github</a></p>
-      </div>
-      <br />
-
-<hr>
-
-<br />
-<br />
-<button class="btn btn-primary btn-block" id="stats">Currency Information</button>
+    <button class="btn btn-primary btn-block" id="stats">Currency Information</button>
     <br />
     <br />
-<div class="img3">
-    <figure>
-      <img src="./img/freedomcoin400x400.png" alt="Freedom Reserve concept" title="Freedom Reserve Concept">
-    </figure>
+    <div class="img3">
+      <figure>
+        <img src="./img/freedomcoin400x400.png" alt="Freedom Reserve concept" title="Freedom Reserve Concept">
+      </figure>
     </div>
     <br />
     <div>
-    <table>
-      <tbody>
-        <tr>
-          <th>Name</th>
-          <td>Freedom Reserve</td>
-        </tr>
-        <tr>
-          <th>Ticker Symbol</th>
-          <td>FR</td>
-        </tr>
-        <tr>
-          <th>Total Supply</th>
-          <td>80,000,000</td>
-        </tr>
-        <tr>
-          <th>Decimal Division</th>
-          <td>18</td>
-        </tr>
-        <tr>
-          <th>Token ID</th>
-          <td><a href="https://etherscan.io/token/0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532" target="_blank">Etherscan</a></td>
-        </tr>
-        <tr>
-          <th>Development Fund</th>
-          <td>20%</td>
-        </tr>
-      </tbody>
-    </table>
-
+      <table>
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <td>Freedom Reserve</td>
+          </tr>
+          <tr>
+            <th>Ticker Symbol</th>
+            <td>FR</td>
+          </tr>
+          <tr>
+            <th>Total Supply</th>
+            <td>80,000,000</td>
+          </tr>
+          <tr>
+            <th>Decimal Division</th>
+            <td>18</td>
+          </tr>
+          <tr>
+            <th>Token ID</th>
+            <td><a href="https://etherscan.io/token/0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532"
+                target="_blank">Etherscan</a></td>
+          </tr>
+          <tr>
+            <th>Development Fund</th>
+            <td><a href="https://etherscan.io/address/0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2"
+                target="_blank">Wallet</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <iframe class="frame"
+        src="https://duneanalytics.com/embeds/14759/29566/u7q9sl9dvRbiR9tiDci4m1HGMd7Hp25G2QJcngP8"></iframe>
       <br />
 
-     
-      
+
+
     </div>
     <hr>
     <br />
-    <button class="btn btn-error btn-ghost" id="problem">The Problem</button><br /><br />
-    <div class="a">
-    <p>In this century, we face, once again, the virulent reign of the State - of the State now armed with the
-      fruits of man's creative powers, confiscated and perverted to its own aims. The last few centuries were times when
-      men tried to place limits on the State, only to find that such limits, as with all other attempts, have failed. Of
-      all the numerous forms that governments have taken over the centuries, of all the concepts and institutions that
-      have been tried, none has succeeded in keeping the State in check. The problem of the State is evidently as far
-      from a solution as ever. Perhaps new paths of inquiry must be explored, if the final solution to the State is ever
-      to be attained.</p>
-      <div class="img2">
-        <br />
-        <figure>
-          <img src="./img/money supply.png" alt="UK money supply" title="UK M3 Money Supply in £Millions" />
-          <figcaption>UK M3 Money Supply in £Millions</figcaption>
-        </figure>
-        <br />
-      </div>
-    <p>As the State reaches the twilight of its life, we face intractable issues if we allow it to continue
-      its monetary policies. The State, when seeking to continue its existence beyond what is mathematically possible
-      will use the only tool in its arsenal available to it. That tool, is the creation of ever larger
-      quantities of fiat currency. The use of currency debasement by the State, will bring misery and ruin
-      to the people. It is this serious affair with which we are now faced.</p>
-      </div>
-      <br />
-      <div class="ronpaul"><button class="btn btn-primary btn-ghost" onclick="paulFunction()">Click for Ron Paul</button>
-      </div>
-      <div id="ronpaul" class="hidden">
-        <br />
-        <div class="ronpaulpic"><br /><img src="./img/ronpaul.png"></div>
-        <blockquote>
-          <p>
-            <em>What's happening is there's transfer of wealth from the poor and the middle class to the wealthy. This
-              comes about because of the monetary system that we have. When you inflate a currency or destroy a
-              currency, the middle class gets wiped out, the people who get to use the money first, which is created
-              by the Central Bank System, benefit, the money gravitates to the banks and to Wall Street. That's
-              why we have more billionaires than ever before.</em>
-          </p>
-          <footer>
-            <cite>Ron Paul</cite>
-          </footer>
-        </blockquote>
-        <br />
-      </div>
-      <script>
-        function paulFunction() {
-          var x = document.getElementById("ronpaul");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            if (x.style.display === "none");
-            x.style.display = "block";
-          }
-        }
-      </script>
-    <br />
-    
-    
-    <br />
-    <div class="a"><p><cite>Inflation; the silent mugger</cite></p></div>
-    <div class="terminal-alert">The State seeks to prolong the existence of the present monetary regime by robbing its
-      own citizens using fiat currency inflation.
-    <br />
-    <div class="b"><blockquote>
-      <p>
-        <em>The way to crush the people is to grind them between the millstones of taxation and inflation.</em>
-      </p>
-      <footer>
-        <cite>- Vladimir Lenin - Dictator</cite>
-      </footer>
-    </blockquote>
-    <br />
-    <blockquote>
-      <p>
-        <em>Inflation is the parent of unemployment and the robber of those who have saved.</em>
-      </p>
-      <footer>
-        <cite>- Margaret Thatcher - Autocrat</cite>
-      </footer>
-    </blockquote></div></div>
-    <br />
-    <hr>
-    <br />
-    <button class="btn btn-error btn-ghost" id="solution">The Solution</button><br /><br />
-    <div class="a"><p>We all grow up learning about this thing that happened hundreds of years ago, which was
-      the separation of church and state. We learn why that was so important, that humans used to live in societies
-      in which their religion – something very personal and precious to them as individuals — was under the
-      management of the State. The State could tell you what to worship and how, when and why. Somehow, people realised that we shouldn’t permit control of something
-      so personal and important to our lives to be controlled by the State.</p>
-    <p>It is that narrative of human development under which we now have other fights to fight, and in the realm of
-      economics it is mainly the separation of money and State.</p> 
-      
-      <p>Money is absolutely as fundamental to our lives as
-      religion, and for many people it is far more fundamental to their lives than religion. It affects how your life
-      unfolds. The choices that you make about money dictate the path of your life and those around you. To have an
-      institution like money controlled by a central entity — by a monopoly called the State — is absurd. It is immoral.
-      <strong>We should get rid of it.</strong></p></div>
-      <br />
-    <div class="terminal-alert"><p>We propose a new money separated completely from the State. A money with a fixed supply. A zero rate of inflation, distributed
-      fairly to those who need it most; The young people of the world.</p>
-    <br />
-    <p><strong>FREEDOM RESERVE is declared as money in the year 2020 with the intention of giving the people an
-        alternative to corrupt banker controlled money and to allow them to preserve and multiply their wealth for
-        future generations.</strong></p>
-    <br />
-    <div class="img2">
-      <br />
-      <figure>
-        <img src="./img/3dgold1.png" alt="Freedom Reserve">
-        
-      </figure>
-    </div>
-    <p><strong>FREEDOM RESERVE</strong></p></div>
-    <br />
-    <hr>
-    <br />
-    <section>
-      <button class="btn btn-error btn-ghost" id="Timeline">Timeline of events</button><br /><br />
-      <br />
 
-      <div class="terminal-timeline">
-        <div class="terminal-card">
-          <header>November 5 2020</header>
-          <div>
-            Launch of Freedom Reserve.
-          </div>
-        </div>
-        <div class="terminal-card">
-          <header>2021</header>
-          <div>
-            ERC20 phase. During this time we will exist as an Token on the ethereum blockchain. we will also be running various marketing experiments
-            finding out what is most effective.
-          </div>
-        </div>
-        <div class="terminal-card">
-          <header>2022</header>
-          <div>
-            Expansion phase. This phase will see strong and consistent growth. If the market cap is sufficient
-            to guarantee security Freedom Reserve could migrate to its own PoS blockchain during this time.
-          </div>
-        </div>
-        <div class="terminal-card">
-          <header>2023</header>
-          <div>
-            Consolidation phase. By this point Freedom Reserve will be in the early stages of mass adoption
-            within the British Isles and also globally.
-          </div>
-        </div>
-      </div>
-      <br />
-    </section>
-    <hr>
-<br />
-    <button class="btn btn-primary btn-blocka" id="how-to-use">Information</button>
+    <button class="btn btn-primary btn-blocka" id="how-to-use">How to Use</button>
     <br />
-    <p>To interact with the ERC20 token ecosystem on Ethereum use <code>Metamask</code>.</p>
-    <pre><code><a href="https://metamask.io/" target="_blank">metamask.io</a></code></pre>
-<p>Add custom token to metamask with the following contract address:</p>
-<pre><code>0xC626e0619aC79AFEa9281c8eB9b1a9f9D3Fab532</code></pre>
+    <p>Download an Ethereum wallet for FR from <code><a href="https://metamask.io/"
+          target="_blank">metamask.io</a></code>.</p>
 
-    <p>Freedom Reserve Foundation address is @</p>
-    <pre><code><a href="https://etherscan.io/address/0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3" target="_blank">0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3</a></code></pre>
-    <p>Freedom Reserve Bounty fund address:</p>
-<pre><code><a href="https://etherscan.io/address/0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2" target="_blank">0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2</a></code></pre>
-    <br />
-    <hr>
+    <p>Then add FR as a custom token to metamask with the following contract address:</p>
+    <pre><code>0xC626e0619aC79AFEa9281c8eB9b1a9f9D3Fab532</code></pre>
+    <br>
+    <p><strong>Buy FR from Exchanges:</strong></p>
+    <a href="https://info.uniswap.org/pair/0x62008a04401662689467f5ee5d57c4863adabfc0" target="_blank"><img class="img4"
+        src="img/uniswap-uni-logo.png"></a>
 
-    <br />
-    <button class="btn btn-primary btn-blocka" id="earn">How to Earn</button>
-    <br />
-    <p>Most of the development fund is earmarked for bounties and marketing efforts. <strong>WE PAY YOU TO HELP SPREAD
-        THE WORD</strong>:</p>
-    <ol>
-      <li>Print out one of the images from the <a href="#gallery">gallery</a> as stickers and stick them up.</li>
-      <li>Take photographs of your work.</li>
-      <li>Send the photos to <strong>freedomreserv@ethmail.cc</strong></li>
-      <li>Use this <button class="btn btn-primary btn-ghost" onclick="myFunction()">PGP key</button>
-        to encrypt (Recommended)<div id="hidden" class="hidden">
-          <pre><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
-
-mQENBF+MlbEBCADEKCjyF/FMFgpktVI3ijcWR5BGnLUfx/bQx7KvL0HXSoxAFCupxPmvPKwDylbnLxPROYU1S0pcBiyOyxeUHoOrzg6IqWgS8LJmWU1R8ha49Bo3XRCrjGcnyv0nq6qDTlVUO8USNmM0nm0bIfDnDw1mPtsIrofRYDgqy9+ABPK5m9sl4Y1/VeeIVuFLyfJAgit4Uh2niKPaU+eFCV5z4Pz86ZUAKH/hjTbwj8fa4ys/0b6w2LlHTrkGhRjmCbKx7r/jfbjADbZ6Ux4N7bNDw1r3RbtzNZ4pISep1L0CdXqEX7teLZSir1OnAwjlb2m+bez0m8ZNHxc5oBtEVApGDLRZABEBAAG0L3llYWhyaWdodCAoZnJlZWRvbXJlc2VydmUpIDxoYWhhaGFoYUBnbWFpbC5jb20+iQFOBBMBCgA4FiEEtAsFO5450AjmP16fxQxWTOk3LNQFAl+MlbECGwMFCwkIBwIGFQoJCAsCBBYCAwECHgECF4AACgkQxQxWTOk3LNTgDAf+LoHOMWRY3atR5XnY2CjYNXTZE/z+eAmsy2izn3vizywQfTfHCf2optSE8jEBD8/8u3aAqqecVAkbcnb/N4rU4tUkxGFdaFpftgg5cFKePgKwZ091yzJo+pS8ntA0W+pMPUvWJ1xsua0oUrG+8Ck12qSFiR39trLWhRGYjGEl4OIyOCIh5HNlBU3Z7HU8+N0ys9bNcr6mo55TFNjS2gzpqe5j6QEe7yOQdkJZgXqYSdIdvREr2WpE7PDY+APXy18NLyxmVqNIhcO2FId29sP4s54JWdbgB2B6DQj5itHwkMeVC/JpYGtoFdechs7T5eNKiQExLh3kXroJ6xjnnIOhh7kBDQRfjJWxAQgApl4lwEZY59I37rXxU/YzaQOFJ+2CBO5DJuMijccgjDlLivzMA9PbjiK/r9xfrZpcJo1eHp8Q6FiortLoidoyCeMsWuVuu7jitXuhsfYlSlNupwS1RiQI5V5b3NTQ+4jWQ96H7uuc/5fUNZr9B15CnVEjd5Knwz8uD9XlJCz/+IqoMybumAZnxrE4pZ759+s8EN8dP0lPz5dzZ1rTH/BeU/D0j1EfbbgIr28W49WGt6ajJdeILiIfZGzZrR4ciRZqEMCIHTdgBwCKOQErztMbNAuSp+A7TvT3K8FrvgIoaJwHSGpncjy/OBsgaNoe193QmWd6nrfxabKcEZiROR+7mQARAQABiQE2BBgBCgAgFiEEtAsFO5450AjmP16fxQxWTOk3LNQFAl+MlbECGwwACgkQxQxWTOk3LNRyLQgAqKUHNsceP5BZ1fTQhBEJt7X3PFT+M9CQVEyugRrycIYYQ0CcbEQSDEgHuNc0xg/oT5lb8ORNwJgDZ1jsBjbBqeDBwd71jofk2cY2es2HG1X0y/oe4LwSttRsIVQa4faDH2G0LeF+fN6kR2aAdpCAU6UH+PcIb1BotvnSnbhq+Q9DqdLSalmXsY5IQc+gOzXiy8kT253dS/Ur8BE+ie3UMgVOZwNPceM7fDKSXnDMRv6GnNA/LzJX9KHRY5Lq0srunQCRBVw03p0PlqEQ1HfoxFN/1CMcs/3LsN5+PHZkDccrXXy/xKrVpNz0XWPY01zwNgrDesbKLTuMnVCVM6693g===zWJK
------END PGP PUBLIC KEY BLOCK-----</code></pre>
-        </div>
-        <script>
-          function myFunction() {
-            var x = document.getElementById("hidden");
-            if (x.style.display === "block") {
-              x.style.display = "none";
-            } else {
-              if (x.style.display === "none");
-              x.style.display = "block";
-            }
-          }
-        </script>
-      <li>Attach your Ethereum address to collect your bounty.</li>
-    </ol>
-    <p>Bounty of <strong>25 Freedom Reserve</strong> per sticker placed. Other promotional campaigns will be judged on
-      their individual merits and bounty awarded accordingly. Join our <a
-        href="https://t.me/FREEDOMRESERVE1" target="_blank">Telegram group</a> to help out creatively.</p>
     <br />
     <hr>
     <br />
     <button class="btn btn-primary btn-blocka" id="spend">Where to spend</button>
     <br />
-    <p><strong>Freedom Reserve is open to anybody to use as currency</strong></p>
-    <p>If you accept FR for your goods and services just contact admin to place a listing in this section :)</p>
-<br />
-    <a href="https://shop.freedomreserv.eth.link/" target="_blank"><button
-      class="btn btn-primary btn-ghost">Green Man Market</button></a>
-    <p>You can find many interesting potential purchases at the Green Man Market</p>
-      <br>
-      <a href="https://www.equityplus.biz/equityplus/index.php/2020/11/03/equityplus-accepts-frc-token/" target="_blank"><button
-        class="btn btn-primary btn-ghost">Equityplus</button></a>
-      <p>Purchase EquityPlus crypto trading bot subscriptions with FR</p>
-        <br />
-        
+    <p><strong>If you accept FR for goods and services we want to partner with you by helping to advertise your
+        business.</strong></p>
+    <p></p>
+    <br />
+    <a href="https://green-man.ogn.app/" target="_blank"><img class="img4" src="img/greenman_logo.PNG"></a>
 
-<hr>
-<br />
-   
+    <p><strong>Green Man Market</strong> - Mail order Off-License</p>
+    <br>
+    <a href="https://www.equityplus.biz/equityplus/index.php/2020/11/03/equityplus-accepts-frc-token/"
+      target="_blank"><img class="img4" src="img/equity_logo.png"></a>
+    <p><strong>EquityPlus</strong> - Cryptocurrency trading bot</p>
+    <br />
+
+    <br />
+
     <button class="btn btn-primary btn-blocka" id="links">Links</button>
     <br />
-    <p><strong>Exchanges:</strong></p>
-      <a href="https://info.uniswap.org/pair/0x62008a04401662689467f5ee5d57c4863adabfc0" target="_blank"><button
-          class="btn btn-error">UNISWAP</button></a>
-          <br />
-          <br />
+
     <p><strong>Community:</strong></p>
-      <a href="https://t.me/FREEDOMRESERVE1" target="_blank"><button
-          class="btn btn-primary btn-ghost">TELEGRAM</button></a>
-          <a href="https://discord.gg/Q9UPTTQ" target="_blank"><button
-          class="btn btn-primary btn-ghost">DISCORD</button></a>
-          <a href="https://instagram.com/freedomreserve1fr?igshid=71yij6h92xej" target="_blank"><button
-          class="btn btn-primary btn-ghost">INSTAGRAM</button></a>
-          <a href="https://minds.com/freedomreserve" target="_blank"><button
-         class="btn btn-primary btn-ghost">MINDS</button></a>
-         <a href="https://github.com/Freedom-Reserve" target="_blank"><button
-          class="btn btn-primary btn-ghost">GITHUB</button></a>
+    <a href="https://t.me/FREEDOMRESERVE1" target="_blank"><img class="img4" src="img/telegram_logo.png"></a>
+    <a href="https://discord.gg/Q9UPTTQ" target="_blank"><img class="img4" src="img/discord_logo.png"></a>
+    <a href="https://minds.com/freedomreserve" target="_blank"><img class="img4" src="img/minds_logo.png"></a>
+    <a href="https://memo.cash/profile/1Log46boYJ6VhxPCh68mXhaRkR6EGJEtG7" target="_blank"><img class="img4"
+        src="img/memocash_logo.png"></a>
+    <a href="https://gab.com/FreedomReserve" target="_blank"><img class="img4" src="img/gab_logo.png"></a>
+    <a href="https://github.com/Freedom-Reserve" target="_blank"><img class="img4" src="img/github_logo.png"></a>
+    <a href="https://hackernoon.com/u/freedomreserve" target="_blank"><img class="img4"
+        src="img/hackernoon_logo.png"></a>
+    <a href="https://bitcointalk.org/index.php?topic=5283585" target="_blank"><img class="img4"
+        src="img/bitcointalk_logo.png"></a>
+    <br />
+    <br />
+    <p><strong>Price Trackers</strong></p>
+    <a href="https://coinmarketcap.com/currencies/freedom-reserve/" target="_blank"><img class="img4"
+        src="img/CoinMarketCap_Logo.png"></a>
+    <a href="https://www.livecoinwatch.com/price/FreedomReserve-FR" target="_blank"><img class="img4"
+        src="img/Livecoinwatch_logo.png"></a>
+    <a href="https://etherscan.io/token/0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532" target="_blank"><img class="img4"
+        src="img/etherscan_logo.png"></a>
+    <a href="https://www.cryptocompare.com/coins/fr/overview" target="_blank"><img class="img4"
+        src="img/Cryptocompare_logo.png"></a>
+    <a href="https://www.coingecko.com/en/coins/freedom-reserve" target="_blank"><img class="img4"
+        src="img/Coingecko_logo.png"></a>
+
 
     <br />
-    
-    
+
+
     <br />
-    
-    <hr>
-    <br />
-    <div class="terminal-card">
-      <header>
-        <h2 id="whitepaper"><strong>FREEDOM RESERVE PHASE 2.0 WHITE PAPER</strong></h2>
-      </header>
-      <EMBED SRC="./img/FreedomReserveWhitepaper.pdf" STYLE="width:100%; height:400px; overflow:scroll; border-style:solid; border-width:2px; border-color:#000000">
-        <a href="./img/FreedomReserveWhitepaper.pdf" target="blank"><button class="btn btn-primary btn-block">Full Screen View</button></a>
-    </div>
-    <br />
-    <hr>
-    <button class="btn btn-primary btn-block" id="gallery">Gallery</button>
-    <br />
-    <br />
-    <div class="image-grid">
-      <a href="./img/collapsesticker.png" style="border: none;"><img src="./img/collapsesticker.png" width="auto"
-          alt="random image" /></a>
-      <a href="./img/warningsticker.png" style="border: none;"><img src="./img/warningsticker.png" width="auto"
-          alt="random image" /></a>
-      <a href="./img/freedomsticker.png" style="border: none;"><img src="./img/freedomsticker.png" width="auto"
-          alt="random image" /></a>
-      <a href="./img/vsticker.png" style="border: none;"><img src="./img/vsticker.png" width="auto"
-          alt="random image" /></a>
-      <a href="./img/freedomreserve greensticker.png" style="border: none;"><img src="./img/freedomreserve greensticker.png" width="auto"
-          alt="random image" /></a>
-      <a href="./img/freedomreserve redsticker.png" style="border: none;"><img src="./img/freedomreserve redsticker.png" width="auto"
-            alt="random image" /></a>
-    </div>
-    <br />
-    <div class="terminal-alert">These stickers are free to distribute through the <a href="#earn">bounty program</a>
-    </div>
+
     <hr />
     <br />
-    <h2 id="help">Contribute</h2>
-    <p>This website is brought to you through the magic of <strong>IPFS</strong> you can help by pinning this content on
-      your IPFS node:</p>
+    <button class="btn btn-primary btn-blocka" id="contribute">Contribute</button>
+
+    <br />
+    <h1>Please join our github to contribute to development. There are generous development bounties available</h1>
+    <p>Freedom Reserve Foundation address (Donate to the foundation)</p>
     <ul>
+      <li>
+        <pre><code><a href="https://etherscan.io/address/0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3" target="_blank">0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3</a></code></pre>
+      </li>
+      <p>Freedom Reserve Bounty fund address (Donate FR to the Bounty fund):</p>
+      <li>
+        <pre><code><a href="https://etherscan.io/address/0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2" target="_blank">0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2</a></code></pre>
+      </li>
+      <br />
+      <p>This website is hosted on <strong>IPFS</strong> help by pinning this content:</p>
+
       <li>
         <pre><code class="language-html">ipfs pin add /ipns/freedomreserv.eth</code></pre>
       </li>
     </ul>
     <a href="https://ipfs.io/#install" target="_blank"><button class="btn btn-default">Install IPFS</button></a><br />
     <br>
-    <p>With ❤️ by Henry P.</p>
-    <p>Please contribute on github: <a style="height: 28px;" class="github-button" href="https://github.com/Freedom-Reserve" data-size="large" data-show-count="true" aria-label="Star Freedom-Reserve on github">Star</a></p>
+
+    <hr>
+    <div class="terminal-nav">
+      <header class="terminal-logo">
+        <br />
+      </header>
+      <nav class="terminal-menu">
+        <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+          <li><a href="main.html" class="menu-item"><span>Home</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#stats" class="menu-item"><span>Stats</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#how-to-use" class="menu-item"><span>How to</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#spend" class="menu-item"><span>Spend</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#links" class="menu-item"><span>Links</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#contribute" class="menu-item"><span>Contribute</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="about.html" class="menu-item"><span>About</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="whitepaper.html" class="menu-item"><span>Whitepaper</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="bounty.html" class="menu-item"><span>Bounty</span></a>
+            <meta property="position">
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script>

@@ -61,7 +61,7 @@ a {
 }
 
 a:hover {
-  background-color: var(--primary-color);
+
   color: var(--invert-font-color);
 }
 
@@ -335,7 +335,7 @@ ol ol {
 }
 
 .ronpaul {
-  
+
 
   width: 60%;
 }
@@ -345,6 +345,16 @@ ol ol {
   margin-left: auto;
   margin-right: auto;
   width: 15%;
+
+}
+
+.frame {
+  width: 500px;
+  height: 250px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  display: block;
+  border-style: none;
 
 }
 
@@ -437,6 +447,7 @@ p {
 div.a {
   text-align: center;
 }
+
 div.b {
   text-align: left;
 }
@@ -448,6 +459,7 @@ p2 {
   margin-left: auto;
   margin-right: auto;
 }
+
 .container {
   max-width: var(--page-width);
 }
@@ -469,6 +481,7 @@ img {
   margin-right: auto;
   width: 50%;
 }
+
 .img3 {
 
   display: block;
@@ -476,6 +489,26 @@ img {
   margin-right: auto;
   width: 25%;
 }
+
+.img4 {
+  width: auto;
+  height: 80px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.img4:hover {
+  top: -10px;
+}
+
+.img5 {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 
 .progress-bar {
   height: 8px;
@@ -534,7 +567,7 @@ table {
   font-size: var(--global-font-size);
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 table .td1 {
@@ -574,11 +607,12 @@ table tbody td:first-child {
   font-weight: 700;
   color: var(var(--secondary-color));
 }
+
 logo1 {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  
+
 
 }
 
@@ -716,7 +750,7 @@ select:-webkit-autofill:focus {
   border-color: var(--font-color);
   color: var(--font-color);
   background-color: transparent;
-  
+
 }
 
 .btn.btn-ghost:focus,
@@ -731,7 +765,7 @@ select:-webkit-autofill:focus {
 }
 
 .btn-block {
-  width: 70%;
+  width: 40%;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
@@ -770,8 +804,9 @@ select:-webkit-autofill:focus {
   border: 1px solid var(--error-color);
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 30%;
 }
+
 .btn-errorg {
   color: var(--invert-font-color);
   background-color: var(--errorg-color);
