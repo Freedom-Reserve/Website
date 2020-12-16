@@ -350,7 +350,7 @@ ol ol {
 
 .frame {
   width: 500px;
-  height: 250px;
+  height: 450px;
   margin: 0 auto;
   background: #FFFFFF;
   display: block;
@@ -956,12 +956,23 @@ select:-webkit-autofill:focus {
   pre::-webkit-scrollbar {
     height: 3px;
   }
+
+  
 }
 
 @media screen and (max-width: 480px) {
   form {
     width: 100%;
   }
+  .frame {
+    border: 0; 
+    width:100%; 
+    height: 230px; 
+    overflow: auto;
+  
+  }
+
+ 
 }
 
 @media only screen and (min-width: 15em) {
@@ -987,6 +998,14 @@ select:-webkit-autofill:focus {
   .terminal-menu li:last-child {
     margin-right: 0;
   }
+  .frame {
+    border: 0; 
+    width:100%; 
+    height: 230px; 
+    overflow: auto;
+  
+  }
+  
 }
 
 .terminal-media:not(:last-child) {
