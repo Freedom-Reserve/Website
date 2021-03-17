@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <script type="text/javascript">
+    var _paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "//nfogix.com/";
+      _paq.push(['setTrackerUrl', u + 'api/track']);
+      _paq.push(['setSiteId', 'f754930f-128f-4898-89db-e004cbf0e013']);
+      var d = document,
+        g = d.createElement('script'),
+        s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript';
+      g.async = true;
+      g.defer = true;
+      g.src = u + 'js/nfogix.min.js';
+      s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="./favicon/icon192x192.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Freedom Reserve</title>
+  <meta name="description" content="Free Currency for the British Isles" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./terminal.css" />
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/icon57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/icon60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/icon72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/icon76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/icon114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/icon120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/icon144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/icon152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/icon180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/icon192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/icon32x32png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/icon96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/icon16x16.png" />
+  <style>
+    .components-grid {
+      display: grid;
+      grid-column-gap: 1.4em;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-rows: auto;
+      display: grid;
+      grid-row-gap: 1em;
+      grid-column-gap: 1em;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(auto-fit,
+          minmax(calc(var(--page-width) / 3), 1fr));
+    }
+
+    @media only screen and (min-width: 70em) {
+      .components-grid {
+        grid-template-columns: 3fr 9fr;
+      }
+    }
+  </style>
+  <style>
+    .timer {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 0px;
+    }
+  </style>
+  <style>
+    :root {
+      --global-font-size: 15px;
+      --global-line-height: 1.6em;
+      --global-space: 10px;
+      --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+        DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+        serif;
+      --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+        DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+        serif;
+      --background-color: #1c1c20;
+      --page-width: 60em;
+      --font-color: #e8e9ed;
+      --invert-font-color: #000000;
+      --secondary-color: #a3abba;
+      --tertiary-color: #a3abba;
+      --primary-color: #05c705;
+      --error-color: #cc0505;
+      --progress-bar-background: #3f3f44;
+      --progress-bar-fill: #62c4ff;
+      --code-bg-color: #434344;
+      --input-style: solid;
+      --display-h1-decoration: none;
+    }
+  </style>
+</head>
+
+<body class="terminal">
+  <div class="container">
+    <div class="terminal-nav">
+      <header class="terminal-logo">
+        <br />
+      </header>
+      <nav class="terminal-menu">
+        <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+          <li><a href="main.html" class="menu-item"><span>Home</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#stats" class="menu-item"><span>Stats</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#how-to-use" class="menu-item"><span>How to</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#spend" class="menu-item"><span>Spend</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#links" class="menu-item"><span>Links</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#contribute" class="menu-item"><span>Contribute</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="about.html" class="menu-item"><span>About</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="whitepaper.html" class="menu-item"><span>Whitepaper</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="bounty.html" class="menu-item"><span>Bounty</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="./nft" className="menu-item"><span>NFT</span></a>
+            <meta property="position"></meta>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <br />
+    <figure>
+      <img id="problem" src="./img/freedomsplash.gif" alt="Freedom Reserve .gif" title="Freedom Reserve banner" />
+
+    </figure>
+    <hr>
+    <div id="goals" class="a"><p><strong>Freedom Reserve was created on 05.11.2020 by an anonymous group of cryptocurrency enthusiasts. Their aim is to reform the whole world's economic system by creating the perfect form of money. A non-inflationary, easy to use electronic decentralised cryptocurrency to replace government issued currency.</strong></p></div>
+
+
+    <button class="btn btn-primary btn-block" id="stats">Currency Information</button>
+    <br />
+    <br />
+    <div class="img3">
+      <figure>
+        <img src="./img/freedomcoin400x400.png" alt="Freedom Reserve concept" title="Freedom Reserve Concept">
+      </figure>
+    </div>
+    <br />
+    <div>
+      <table>
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <td>Freedom Reserve</td>
+          </tr>
+          <tr>
+            <th>Ticker Symbol</th>
+            <td>FR</td>
+          </tr>
+          <tr>
+            <th>Total Supply</th>
+            <td>80,000,000</td>
+          </tr>
+          <tr>
+            <th>Decimal Division</th>
+            <td>18</td>
+          </tr>
+          <tr>
+            <th>Token ID</th>
+            <td><a href="https://etherscan.io/token/0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532"
+                target="_blank">Etherscan</a> <br /><a href="https://blockscout.com/poa/xdai/tokens/0x270DE58F54649608D316fAa795a9941b355A2Bd0"
+                target="_blank">Blockscout (xDai Chain)</a> <br /><a href="https://bscscan.com/token/0xbea7086c99a85d4b5e6a0494c18b037fdd8ee932" target="_blank">Bscscan (Smart Chain)</a></td>
+          </tr>
+          <tr>
+            <th>Development Fund</th>
+            <td><a href="https://etherscan.io/address/0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2"
+                target="_blank">Wallet</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <iframe class="frame"
+        src="https://duneanalytics.com/embeds/14759/29566/u7q9sl9dvRbiR9tiDci4m1HGMd7Hp25G2QJcngP8"></iframe>
+      <br />
+
+
+
+    </div>
+    <hr>
+    <br />
+
+    <button class="btn btn-primary btn-blocka" id="how-to-use">How to Use</button>
+    <br />
+    <p>Download a wallet for FR from <code><a href="https://metamask.io/"
+          target="_blank">metamask.io</a></code>.</p>
+    <br>
+
+    <p>Freedom Reserve is a token that exists on 3 blockchains </p>
+
+    <p><strong>Freedom Reserve contract addresses:</strong></p>
+
+      <ul>
+      <li>Ethereum:</li>
+      <a href="https://etherscan.io/token/0xC626e0619aC79AFEa9281c8eB9b1a9f9D3Fab532" target="_blank">0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532</a>
+
+      <li>xDaichain (bridged):</li>
+      <a href="https://blockscout.com/poa/xdai/tokens/0x270DE58F54649608D316fAa795a9941b355A2Bd0" target="_blank">0x270DE58F54649608D316fAa795a9941b355A2Bd0</a>
+
+      <li>Binance Smart Chain (bridged):</li>
+      <a href="https://bscscan.com/token/0xbea7086c99a85d4b5e6a0494c18b037fdd8ee932" target="_blank">0xBea7086c99A85D4b5E6A0494C18B037fDD8eE932</a>
+
+    </ul>
+
+    <br />
+    <p><strong>Token Bridges:</strong></p>
+    <ul>
+      <li>Ethereum to xDaichain:</li>
+      <a href="https://omni.xdaichain.com/" target="_blank">Omni Bridge</a>
+
+      <li>Ethereum to Smartchain:</li>
+      <a href="https://burgerswap.org/" target="_blank">Burgerswap</a>
+
+    </ul>
+    <br>
+    <p><strong>Buy FR from Exchanges:</strong></p>
+    <a href="https://info.uniswap.org/pair/0x62008a04401662689467f5ee5d57c4863adabfc0" target="_blank"><img class="img4" src="img/uniswap-uni-logo.png">Ethereum</a>
+    <a href="https://info.honeyswap.org/pair/0x46a27bd02f331fdc74835b4596449be6acf551fe" target="_blank"><img class="img4" src="img/honeyswap.png">xDaichain</a>
+    <a href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xbea7086c99a85d4b5e6a0494c18b037fdd8ee932" target="_blank"><img class="img4" src="img/pancake.png">Smart Chain</a>
+
+    <br />
+
+    <br />
+    <hr>
+    <br />
+    <button class="btn btn-primary btn-blocka" id="spend">Where to spend</button>
+    <br />
+    <p><strong>If you accept FR for goods and services we want to partner with you by helping to advertise your
+        business.</strong></p>
+    <p></p>
+    <br />
+    <a href="https://green-man.ogn.app/" target="_blank"><img class="img4" src="img/greenman_logo.PNG"></a>
+
+    <p><strong>Green Man Market</strong> - Mail order Cigarettes and Tobacco (ERC20 FR only)</p>
+    <br />
+    <a href="https://g-card.ogn.app/" target="_blank"><img class="img4" src="img/G-Card-logo.png"></a>
+
+    <p><strong>G-Card</strong> - Giftcards for Netflix and more (ERC20 FR only)</p>
+    <br>
+    <a href="https://www.equityplus.biz/equityplus/index.php/2020/11/03/equityplus-accepts-frc-token/"
+      target="_blank"><img class="img4" src="img/equity_logo.png"></a>
+    <p><strong>EquityPlus</strong> - Cryptocurrency trading bot</p>
+    <br />
+    <a href="https://www.reelisticlighting.com/"
+      target="_blank"><img class="img4" src="img/reelistic.png"></a>
+    <p><strong>Reelistic Lighting</strong> - Professional lighting equipment for the film and television industry. </p>
+    <br />
+    <button class="btn btn-primary btn-blocka" id="">Partners</button>
+    <br />
+    <br />
+    <a href="https://utopiamusic.bandcamp.com/"
+    target="_blank"><img class="img4" src="img/utopia.jpg"></a>
+  <p><strong>Utopia Music</strong> - Record Label. </p>
+    <br />
+
+    <button class="btn btn-primary btn-blocka" id="links">Links</button>
+    <br />
+
+    <p><strong>Community:</strong></p>
+    <a href="https://t.me/FREEDOMRESERVE1" target="_blank"><img class="img4" src="img/telegram_logo.png"></a>
+    <a href="https://discord.gg/Q9UPTTQ" target="_blank"><img class="img4" src="img/discord_logo.png"></a>
+    <a href="https://minds.com/freedomreserve" target="_blank"><img class="img4" src="img/minds_logo.png"></a>
+    <a href="https://www.instagram.com/freedom_reserve/" target="_blank"><img class="img4" src="img/instagram_logo.png"></a>
+    <a href="https://memo.cash/profile/1Log46boYJ6VhxPCh68mXhaRkR6EGJEtG7" target="_blank"><img class="img4"
+        src="img/memocash_logo.png"></a>
+    <a href="https://gab.com/FreedomReserve" target="_blank"><img class="img4" src="img/gab_logo.png"></a>
+    <a href="https://github.com/Freedom-Reserve" target="_blank"><img class="img4" src="img/github_logo.png"></a>
+    <a href="https://hackernoon.com/u/freedomreserve" target="_blank"><img class="img4"
+        src="img/hackernoon_logo.png"></a>
+    <a href="https://bitcointalk.org/index.php?topic=5283585" target="_blank"><img class="img4"
+        src="img/bitcointalk_logo.png"></a>
+    <br />
+    <br />
+    <p><strong>Price Trackers</strong></p>
+    <a href="https://coinmarketcap.com/currencies/freedom-reserve/" target="_blank"><img class="img4"
+        src="img/CoinMarketCap_Logo.png"></a>
+    <a href="https://www.livecoinwatch.com/price/FreedomReserve-FR" target="_blank"><img class="img4"
+        src="img/Livecoinwatch_logo.png"></a>
+    <a href="https://etherscan.io/token/0xc626e0619ac79afea9281c8eb9b1a9f9d3fab532" target="_blank"><img class="img4"
+        src="img/etherscan_logo.png"></a>
+    <a href="https://www.cryptocompare.com/coins/fr/overview" target="_blank"><img class="img4"
+        src="img/Cryptocompare_logo.png"></a>
+    <a href="https://www.coingecko.com/en/coins/freedom-reserve" target="_blank"><img class="img4"
+        src="img/Coingecko_logo.png"></a>
+
+
+    <br />
+
+
+    <br />
+
+    <hr />
+    <br />
+    <button class="btn btn-primary btn-blocka" id="contribute">Contribute</button>
+
+    <br />
+    <h1>Please join our github to contribute to development. There are generous development bounties available</h1>
+    <p>Freedom Reserve Foundation address (Donate to the foundation)</p>
+    <ul>
+      <li>
+        <pre><code><a href="https://etherscan.io/address/0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3" target="_blank">0x28996440c8e4c8ba6e132979cb5b8ea6ecb13cc3</a></code></pre>
+      </li>
+      <p>Freedom Reserve Bounty fund address (Donate FR to the Bounty fund):</p>
+      <li>
+        <pre><code><a href="https://etherscan.io/address/0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2" target="_blank">0xac96f2e00b5f38568b27cea15ddbacd5e5d4c4a2</a></code></pre>
+      </li>
+      <br />
+      <p>This website is hosted on <strong>IPFS</strong> help by pinning this content:</p>
+
+      <li>
+        <pre><code class="language-html">ipfs pin add /ipns/freedomreserv.eth</code></pre>
+      </li>
+    </ul>
+    <a href="https://ipfs.io/#install" target="_blank"><button class="btn btn-default">Install IPFS</button></a><br />
+    <br>
+
+    <hr>
+    <div class="terminal-nav">
+      <header class="terminal-logo">
+        <br />
+      </header>
+      <nav class="terminal-menu">
+        <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+          <li><a href="main.html" class="menu-item"><span>Home</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#stats" class="menu-item"><span>Stats</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#how-to-use" class="menu-item"><span>How to</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#spend" class="menu-item"><span>Spend</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#links" class="menu-item"><span>Links</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="#contribute" class="menu-item"><span>Contribute</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="about.html" class="menu-item"><span>About</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="whitepaper.html" class="menu-item"><span>Whitepaper</span></a>
+            <meta property="position">
+          </li>
+          <li><a href="bounty.html" class="menu-item"><span>Bounty</span></a>
+            <meta property="position">
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll("pre code").forEach(block => {
+          window.hljs.highlightBlock(block);
+        });
+      });
+    </script>
+</body>
+
+</html>

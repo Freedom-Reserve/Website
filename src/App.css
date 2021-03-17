@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans Condensed';
+  padding: 20px 40px;
+}
+/* 20px top and bottom, 40px on the sides
+  //background-color: black;
+
+*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/*so the header options don't look like a <a> tag with underline
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+/*
+*/
