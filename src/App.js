@@ -1,7 +1,7 @@
 import './App.css';
 import "semantic-ui-css/semantic.min.css";
 import React, { useState, useEffect } from "react";
-import { Route, Switch, Redirect } from 'react-router-dom';//Links
+import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';//Links
 //import logo from './logo.svg';
 //import { Form, Button, Input, Label, Message, Dropdown, Grid, } from "semantic-ui-react";
 //  Card, Header, Segment, GridRow,
